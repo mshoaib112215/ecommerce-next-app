@@ -5,8 +5,7 @@ import {client} from '../lib/client';
 const Home = ({bannerData ,products }) => {
   return (
     <>
-      {console.log("Hello")}
-      {console.log(bannerData[0])}
+      
       <HeroBanner heroBanner = {bannerData.length && bannerData[0]}/>
       
       <div className='products-heading'>
